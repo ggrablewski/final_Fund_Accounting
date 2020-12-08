@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Fund_Accounting:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fund_Accounting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/EntityModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Fund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/PortfolioItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/SecurityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/EntityModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Portfolio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/PortfolioItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Security.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/SecurityType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/UserGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jaxb-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/EntityModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Portfolio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/PortfolioItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Security.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/SecurityType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/UserGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lMCxH3tQjnbHv1c8Fax8xJGQGQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.39" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Fund_Accounting:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Fund_Accounting" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39077" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Fund_Accounting:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="" />
+      <created>1607397819677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607397819677</updated>
+      <workItem from="1607397820775" duration="768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new_repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="new_repository" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="104" width="1014" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607398364667">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state x="302" y="104" width="1014" height="750" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1528.873@72.27.1528.873" timestamp="1607398364667" />
+    <state width="1016" height="216" key="GridCell.Tab.0.bottom" timestamp="1607398401248">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state width="1016" height="216" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607398401248" />
+    <state width="1016" height="216" key="GridCell.Tab.0.center" timestamp="1607398401248">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state width="1016" height="216" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607398401248" />
+    <state width="1016" height="216" key="GridCell.Tab.0.left" timestamp="1607398401247">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state width="1016" height="216" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607398401247" />
+    <state width="1016" height="216" key="GridCell.Tab.0.right" timestamp="1607398401248">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state width="1016" height="216" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607398401248" />
+    <state x="325" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1607398312127">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state x="325" y="98" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1607398312127" />
+  </component>
+</project>
