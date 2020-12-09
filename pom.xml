@@ -39,6 +39,12 @@
             <version>1.2.3</version>
         </dependency>
         <dependency>
+            <groupId>org.slf4j</groupId>
+<!--            <artifactId>slf4j-log4j12</artifactId>-->
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.7.28</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.16</version>
@@ -89,6 +95,12 @@
             <artifactId>spring-data-jpa</artifactId>
             <version>2.1.10.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+
 
         <!--        ==dla jsp-->
         <!--        <dependency>-->

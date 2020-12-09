@@ -1,16 +1,20 @@
 package pl.coderslab.app;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
+import pl.coderslab.fixtures.UserFixture;
 
 import javax.servlet.FilterRegistration;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
+@Slf4j
 public class AppInitializer implements WebApplicationInitializer {
+
     public void onStartup(ServletContext container) throws ServletException {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(AppConfig.class);
@@ -33,10 +37,9 @@ public class AppInitializer implements WebApplicationInitializer {
 
     private void loadFixtures(AnnotationConfigWebApplicationContext ctx){
 //@TODO uzupełnić fixtures
-//        PublisherFixture publisherFixture = ctx.getBean("publisherFixture", PublisherFixture.class);
-//        BookFixture bookFixture = ctx.getBean("bookFixture", BookFixture.class);
-//
-//        publisherFixture.loadIntoDB();
-//        bookFixture.loadIntoDB();
+
+        UserFixture userFixture = ctx.getBean("userFixture", UserFixture.class);
+        userFixture.loadIntoDB();
+        log.trace("loading userFixture");
     }
 }

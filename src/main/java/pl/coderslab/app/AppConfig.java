@@ -1,8 +1,10 @@
 package pl.coderslab.app;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
@@ -25,10 +27,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
+@Slf4j
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "pl.coderslab")
 @EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "pl.coderslab.repository")
 public class AppConfig implements WebMvcConfigurer {
 
     @Override
@@ -37,6 +41,7 @@ public class AppConfig implements WebMvcConfigurer {
         stringConverter.setSupportedMediaTypes(Arrays.asList(new MediaType("text", "plain",
                 Charset.forName("UTF-8"))));
         converters.add(stringConverter);
+        log.trace("configureMessageConverters");
     }
 
     @Bean
@@ -45,6 +50,7 @@ public class AppConfig implements WebMvcConfigurer {
                 new InternalResourceViewResolver();
         viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".jsp");
+        log.trace("ViewResolver Bean");
         return viewResolver;
     }
 
@@ -52,10 +58,12 @@ public class AppConfig implements WebMvcConfigurer {
     public LocaleContextResolver getLocaleContextResolver() {
         SessionLocaleResolver localeResolver = new SessionLocaleResolver();
         localeResolver.setDefaultLocale(new Locale("pl","PL"));
-        return localeResolver; }
+        return localeResolver;
+    }
 
     @Bean
     public Validator validator() {
+        log.trace("Validator Bean");
         return new LocalValidatorFactoryBean();
     }
 
@@ -70,6 +78,7 @@ public class AppConfig implements WebMvcConfigurer {
         LocalEntityManagerFactoryBean entityManagerFactoryBean
                 = new LocalEntityManagerFactoryBean();
         entityManagerFactoryBean.setPersistenceUnitName("fundAccountingPersistenceUnit");
+        log.trace("setting PersistenceUnit");
         return entityManagerFactoryBean;
     }
     @Bean

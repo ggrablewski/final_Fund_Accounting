@@ -1,8 +1,8 @@
 package pl.coderslab.entity;
 
 public enum UserGroup {
-    SUPERUSER,
     ADMIN,
+    SUPERUSER,
     TRADE_AGENT,
     TRADE_CAPTURE,
     PRICING,
