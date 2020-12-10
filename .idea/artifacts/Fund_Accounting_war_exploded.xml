@@ -22,10 +22,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.9.RELEASE" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.28" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.28" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.28" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.4.4.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
           <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
@@ -58,7 +58,6 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.1.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.9.3" />
           <element id="library" level="project" name="Maven: org.mindrot:jbcrypt:0.4" />
-          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

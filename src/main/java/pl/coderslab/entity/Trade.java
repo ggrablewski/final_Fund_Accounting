@@ -48,7 +48,7 @@ public class Trade implements EntityModel {
 
 // Trade handling methods
 
-    public Trade(Date date, Fund fund, Security security, Float amount,  Float purchasePrice, Float transactionCost) {
+    public Trade(Date date, Fund fund, Security security, Float amount, Float purchasePrice, Float transactionCost) {
 
 // Setup part
         this.date = date;
@@ -62,7 +62,9 @@ public class Trade implements EntityModel {
         Float totalCost = amount * purchasePrice + transactionCost;
         switch (this.security.getSecurityType()) {
 
-            case future, forward, derivative:
+            case future:
+            case forward:
+            case derivative:
                 this.fund.setFinancialAssetsCollateral(this.fund.getFinancialAssetsCollateral() + totalCost);
                 this.fund.setCashAndEquivalents(this.fund.getCashAndEquivalents() - totalCost);
                 this.fund.setDueToBrokers(this.fund.getDueToBrokers() + transactionCost);

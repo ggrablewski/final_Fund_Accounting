@@ -28,17 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addFundForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Fund_Accounting_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Fund_Accounting_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_28.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/FundDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainmenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fund_Accounting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fund_Accounting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/app/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/FundDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/FundDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/FundDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/EntityModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/EntityModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
@@ -46,6 +53,7 @@
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/PortfolioItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/PortfolioItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Security.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/SecurityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/SecurityType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/UserGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/UserGroup.class" afterDir="false" />
@@ -57,17 +65,27 @@
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TaxFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TaxFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TradeAgentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TradeAgentFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TradeCaptureFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/filter/TradeCaptureFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/FundFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/FundFixture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/SecurityFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/SecurityFixture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/UserFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/UserFixture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/FundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/FundRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/SecurityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/TradeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/TradeRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/mainmenu.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/FundDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/FundDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/FundDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/EntityModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/EntityModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
@@ -75,6 +93,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/PortfolioItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/PortfolioItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Security.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/SecurityType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/SecurityType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/UserGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/UserGroup.class" afterDir="false" />
@@ -86,10 +105,19 @@
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TaxFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TaxFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TradeAgentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TradeAgentFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TradeCaptureFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/filter/TradeCaptureFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/FundFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/FundFixture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/SecurityFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/SecurityFixture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/UserFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/UserFixture.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/FundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/FundRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/SecurityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/TradeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/TradeRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserServiceImpl.class" afterDir="false" />
     </list>
@@ -139,7 +167,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WRO_SJE_S_23_ScrumLab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WRO_JEE_S_15_JEE_Hibernate" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,19 +185,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.39" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -243,18 +258,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -270,6 +273,7 @@
       <workItem from="1607508742458" duration="9001000" />
       <workItem from="1607531975790" duration="17730000" />
       <workItem from="1607586685226" duration="26705000" />
+      <workItem from="1607627673292" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="new_repository">
       <created>1607398631495</created>
@@ -328,62 +332,62 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="644" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1528.873@72.27.1528.873" timestamp="1607610188297" />
-    <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl" timestamp="1607613816116">
+    <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl" timestamp="1607628677037">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1607613816116" />
-    <state width="1177" height="118" key="GridCell.Tab.0.bottom" timestamp="1607613364653">
+    <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1607628677037" />
+    <state width="1177" height="440" key="GridCell.Tab.0.bottom" timestamp="1607629424369">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607613364653" />
-    <state width="1177" height="118" key="GridCell.Tab.0.center" timestamp="1607613364653">
+    <state width="1177" height="440" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607629424369" />
+    <state width="1177" height="440" key="GridCell.Tab.0.center" timestamp="1607629424368">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607613364653" />
-    <state width="1177" height="118" key="GridCell.Tab.0.left" timestamp="1607613364652">
+    <state width="1177" height="440" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607629424368" />
+    <state width="1177" height="440" key="GridCell.Tab.0.left" timestamp="1607629424368">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607613364652" />
-    <state width="1177" height="118" key="GridCell.Tab.0.right" timestamp="1607613364653">
+    <state width="1177" height="440" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607629424368" />
+    <state width="1177" height="440" key="GridCell.Tab.0.right" timestamp="1607629424369">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607613364653" />
-    <state width="1177" height="118" key="GridCell.Tab.1.bottom" timestamp="1607612625855">
+    <state width="1177" height="440" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607629424369" />
+    <state width="1177" height="440" key="GridCell.Tab.1.bottom" timestamp="1607629424108">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607612625855" />
-    <state width="1177" height="118" key="GridCell.Tab.1.center" timestamp="1607612625854">
+    <state width="1177" height="440" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607629424108" />
+    <state width="1177" height="440" key="GridCell.Tab.1.center" timestamp="1607629424107">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607612625854" />
-    <state width="1177" height="118" key="GridCell.Tab.1.left" timestamp="1607612625854">
+    <state width="1177" height="440" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607629424107" />
+    <state width="1177" height="440" key="GridCell.Tab.1.left" timestamp="1607629424107">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607612625854" />
-    <state width="1177" height="118" key="GridCell.Tab.1.right" timestamp="1607612625854">
+    <state width="1177" height="440" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607629424107" />
+    <state width="1177" height="440" key="GridCell.Tab.1.right" timestamp="1607629424107">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607612625854" />
-    <state width="1177" height="118" key="GridCell.Tab.2.bottom" timestamp="1607612625856">
+    <state width="1177" height="440" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607629424107" />
+    <state width="1177" height="440" key="GridCell.Tab.2.bottom" timestamp="1607629424109">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607612625856" />
-    <state width="1177" height="118" key="GridCell.Tab.2.center" timestamp="1607612625855">
+    <state width="1177" height="440" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607629424109" />
+    <state width="1177" height="440" key="GridCell.Tab.2.center" timestamp="1607629424108">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607612625855" />
-    <state width="1177" height="118" key="GridCell.Tab.2.left" timestamp="1607612625855">
+    <state width="1177" height="440" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607629424108" />
+    <state width="1177" height="440" key="GridCell.Tab.2.left" timestamp="1607629424108">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607612625855" />
-    <state width="1177" height="118" key="GridCell.Tab.2.right" timestamp="1607612625856">
+    <state width="1177" height="440" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607629424108" />
+    <state width="1177" height="440" key="GridCell.Tab.2.right" timestamp="1607629424109">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="118" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607612625856" />
-    <state x="325" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1607398312127">
+    <state width="1177" height="440" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607629424109" />
+    <state x="309" y="106" width="1022" height="737" key="SettingsEditor" timestamp="1607630043463">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="325" y="98" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1607398312127" />
+    <state x="309" y="106" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1607630043463" />
     <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1607612245021">
       <screen x="72" y="27" width="1528" height="873" />
     </state>

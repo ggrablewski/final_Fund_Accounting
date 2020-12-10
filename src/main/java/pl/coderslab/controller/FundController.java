@@ -7,7 +7,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
 import pl.coderslab.entity.Fund;
 import pl.coderslab.service.FundService;
 import pl.coderslab.service.SecurityService;
@@ -16,8 +15,6 @@ import pl.coderslab.service.UserService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
-import java.sql.Date;
-import java.time.Duration;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
