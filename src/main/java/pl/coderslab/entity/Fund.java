@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
+import java.sql.Date;
+import static java.time.temporal.ChronoUnit.DAYS;
 
 @Entity
 @Table(name = "funds")
@@ -31,15 +33,24 @@ public class Fund implements EntityModel {
     @OneToOne(mappedBy = "fund")
     private Portfolio portfolio;
 
+//  NAV fields
+    private Date lastValuationDate;
+    private Float totalShares;
+
 // EXPENSES - in % of the base
 
+    // Trade charges
     private Float purchaseFee;
     private Float redemptionFee;
+
+    // TNA charges
     private Float managementFee;
     private Float performanceFee;
     private Float accountFee;
     private Float distributionFee;
     private Float serviceFee;
+
+    private Float totalExpenseCap;
 
 // ACCOUNTS
 
@@ -64,12 +75,71 @@ public class Fund implements EntityModel {
     private Float dueToBrokers;
     private Float accruedExpenses;
 
+// constructor with initial fields
+
+    public Fund(Long id, String ISIN, String fundName, String clientName, Portfolio portfolio, Date lastValuationDate,
+                Float totalShares, Float startingCapital) {
+        this.id = id;
+        this.ISIN = ISIN;
+        this.fundName = fundName;
+        this.clientName = clientName;
+        this.portfolio = portfolio;
+        this.lastValuationDate = lastValuationDate;
+        this.totalShares = totalShares;
+        this.cashAndEquivalents = startingCapital;
+        this.shareCapital = startingCapital;
+    }
+
+// NAV methods
+
+    public Float calculateAssets() {
+        return  financialAssets +
+                financialAssetsCollateral +
+                dueFromBrokers +
+                otherReceivables +
+                marginAccounts +
+                cashAndEquivalents;
+    }
+
+    public Float calculateLiabilities() {
+        return  financialLiabilities +
+                dueToBrokers +
+                accruedExpenses;
+    }
+
+    public Float accrueTnaExpenses (Date date) {
+        Float TNA = calculateAssets() - calculateLiabilities();
+        long days = DAYS.between(lastValuationDate.toLocalDate(), date.toLocalDate());
+        Float expenseRate = Math.min(totalExpenseCap,
+                        managementFee +
+                        performanceFee +
+                        accountFee +
+                        distributionFee +
+                        serviceFee);
+        return TNA * expenseRate * days / 365;
+    }
+
+    public Float calculateNAV(Date date) {
+// calculate expenses
+        Float currentExpenses = accrueTnaExpenses(date);
+// **** BOOK the expenses
+        accruedExpenses += currentExpenses;
+        retainedEarnings -= currentExpenses;
+// calculate NAV
+        Float nav = ( calculateAssets() - calculateLiabilities() ) / totalShares;
+// set new last valuation date
+        lastValuationDate = date;
+// return result
+        return nav;
+    }
 
     @Override
     public String toString() {
         return "Fund " + fundName + "\n" +
                 "ISIN " + ISIN + "\n" +
                 "client " + clientName + "\n" +
+                "last valuation date " + lastValuationDate.toLocalDate().toString() + "\n" +
+                "last NAV " + calculateNAV(lastValuationDate) + "\n" +
                 "ASSETS \n"+
                 "Financial assets at fair value through profit or loss " + financialAssets + "\n" +
                 "Financial assets at fair value through profit or loss pledged as collateral " + financialAssetsCollateral + "\n" +

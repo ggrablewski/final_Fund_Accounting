@@ -38,10 +38,12 @@ public class UserServiceImpl implements UserService {
         return this.userDao.deleteEntity(findByComitId(comitId));
     }
 
+    @Override
     public boolean passwordMatches(User user, String passwordToCheck) {
         return userDao.passwordMatches(passwordToCheck, user.getPassword());
     }
 
+    @Override
     public boolean passwordMatches(String comitId, String passwordToCheck) {
         return passwordMatches(findByComitId(comitId).getPassword(), passwordToCheck);
     }

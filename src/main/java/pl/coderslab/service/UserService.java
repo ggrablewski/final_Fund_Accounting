@@ -12,4 +12,7 @@ public interface UserService {
     boolean deleteByComitId(String comitId);
     List<User> findAllUsers();
     List<User> findAllByGroup(UserGroup userGroup);
+    public boolean passwordMatches(User user, String passwordToCheck);
+    public boolean passwordMatches(String comitId, String passwordToCheck);
+
 }

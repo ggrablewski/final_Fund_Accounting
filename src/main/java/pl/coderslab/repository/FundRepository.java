@@ -6,12 +6,13 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import pl.coderslab.entity.Fund;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
 public interface FundRepository extends JpaRepository<Fund, Long> {
 
-//@TODO jak możemy zrobić takie Repository, to po co nam Dao?
 
 
 }

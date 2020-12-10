@@ -30,7 +30,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -40,7 +40,7 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-<!--            <artifactId>slf4j-log4j12</artifactId>-->
+            <!--            <artifactId>slf4j-log4j12</artifactId>-->
             <artifactId>slf4j-jdk14</artifactId>
             <version>1.7.28</version>
         </dependency>
@@ -100,17 +100,15 @@
             <artifactId>jbcrypt</artifactId>
             <version>0.4</version>
         </dependency>
-
-
-        <!--        ==dla jsp-->
-        <!--        <dependency>-->
-        <!--            <groupId>javax.servlet</groupId>-->
-        <!--            <artifactId>jstl</artifactId>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.apache.tomcat.embed</groupId>-->
-        <!--            <artifactId>tomcat-embed-jasper</artifactId>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.tomcat.embed</groupId>-->
+<!--            <artifactId>tomcat-embed-jasper</artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 
     <!--    <build>-->
