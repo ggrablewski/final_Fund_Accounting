@@ -7,26 +7,38 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import pl.coderslab.entity.User;
+import pl.coderslab.service.FundService;
+import pl.coderslab.service.SecurityService;
+import pl.coderslab.service.TradeService;
 import pl.coderslab.service.UserService;
 
 import javax.validation.Valid;
 import javax.validation.Validator;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("")
 @SessionAttributes("userGroup")
 @Slf4j
 public class FundAccountingController {
 
     private UserService userService;
+    private FundService fundService;
+    private SecurityService securityService;
+    private TradeService tradeService;
     private Validator validator;
 
     @Autowired
     public FundAccountingController(
             UserService userService,
+            FundService fundService,
+            SecurityService securityService,
+            TradeService tradeService,
             Validator validator
     ) {
         this.userService = userService;
+        this.fundService = fundService;
+        this.securityService = securityService;
+        this.tradeService = tradeService;
         this.validator = validator;
     }
 
@@ -52,7 +64,7 @@ public class FundAccountingController {
 
         if (passwordMatches) {
             model.addAttribute("userGroup", readUser.getUserGroup());
-            return "mainmenu";
+            return "menu";
         } else {
             return "login";
         }
