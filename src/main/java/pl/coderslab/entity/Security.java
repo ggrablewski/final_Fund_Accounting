@@ -30,6 +30,12 @@ public class Security implements EntityModel{
     @NotEmpty
     private SecurityType securityType;
 
+//@TODO update price feature to be added in future
+    @NotEmpty
+    private Float price;
+
+//@TODO currency feature to be added in future
+
     @Transient
     @OneToMany(mappedBy = "security")
     private List<Trade> trades = new ArrayList<>();

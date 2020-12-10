@@ -23,9 +23,15 @@ public class Trade implements EntityModel {
     @NotEmpty
     private Date date;
 
+//@TODO    Portfolio feature to be added in future
+
+//    @NotNull
+//    @ManyToOne
+//    private Portfolio portfolio;
+
     @NotNull
     @ManyToOne
-    private Portfolio portfolio;
+    private Fund fund;
 
     @NotEmpty
     @ManyToOne
@@ -35,21 +41,62 @@ public class Trade implements EntityModel {
     private Float amount;
 
     @NotEmpty
-    private Float transactionCost;
+    private Float purchasePrice;
 
     @NotEmpty
-    private Float totalValue;
+    private Float transactionCost;
+
+// Trade handling methods
+
+    public Trade(Date date, Fund fund, Security security, Float amount,  Float purchasePrice, Float transactionCost) {
+
+// Setup part
+        this.date = date;
+        this.fund = fund;
+        this.security = security;
+        this.amount = amount;
+        this.purchasePrice = purchasePrice;
+        this.transactionCost = transactionCost;
+
+// Booking part
+        Float totalCost = amount * purchasePrice + transactionCost;
+        switch (this.security.getSecurityType()) {
+
+            case future, forward, derivative:
+                this.fund.setFinancialAssetsCollateral(this.fund.getFinancialAssetsCollateral() + totalCost);
+                this.fund.setCashAndEquivalents(this.fund.getCashAndEquivalents() - totalCost);
+                this.fund.setDueToBrokers(this.fund.getDueToBrokers() + transactionCost);
+                this.fund.setRetainedEarnings(this.fund.getRetainedEarnings() - transactionCost);
+                break;
+
+            case currency:
+                this.fund.setOtherReceivables(this.fund.getOtherReceivables() + totalCost);
+                this.fund.setCashAndEquivalents(this.fund.getCashAndEquivalents() - totalCost);
+                this.fund.setDueToBrokers(this.fund.getDueToBrokers() + transactionCost);
+                this.fund.setRetainedEarnings(this.fund.getRetainedEarnings() - transactionCost);
+                break;
+
+            default:
+                this.fund.setFinancialAssets(this.fund.getFinancialAssets() + totalCost);
+                this.fund.setCashAndEquivalents(this.fund.getCashAndEquivalents() - totalCost);
+                this.fund.setDueToBrokers(this.fund.getDueToBrokers() + transactionCost);
+                this.fund.setRetainedEarnings(this.fund.getRetainedEarnings() - transactionCost);
+                break;
+        }
+    }
 
     @Override
     public String toString() {
         return "Trade{" +
                 "id=" + id +
                 ", date=" + date +
-                ", fund=" + portfolio.getFund().getFundName() +
+                ", fund=" + fund.getFundName() +
+//                ", fund=" + portfolio.getFund().getFundName() +
                 ", security=" + security.getSecurityName() +
                 ", amount=" + amount +
+                ", purchasePrice=" + purchasePrice +
                 ", transactionCost=" + transactionCost +
-                ", totalValue=" + totalValue +
+                ", totalValue=" + amount * purchasePrice + transactionCost +
                 '}';
     }
 }

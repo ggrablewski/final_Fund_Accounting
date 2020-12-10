@@ -8,6 +8,9 @@ import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import java.sql.Date;
+import java.util.ArrayList;
+import java.util.List;
+
 import static java.time.temporal.ChronoUnit.DAYS;
 
 @Entity
@@ -33,7 +36,14 @@ public class Fund implements EntityModel {
     @OneToOne(mappedBy = "fund")
     private Portfolio portfolio;
 
+// To be removed, when portfolio feature is added
+    @OneToMany(mappedBy = "fund")
+    private List<Trade> trades = new ArrayList<>();
+
 //  NAV fields
+    @Pattern(regexp = "[A-Z]{3}")
+    private String currency;
+
     private Date lastValuationDate;
     private Float totalShares;
 
@@ -43,13 +53,16 @@ public class Fund implements EntityModel {
     private Float purchaseFee;
     private Float redemptionFee;
 
-    // TNA charges
+    // TNA charges (TNA = Total Net Assets)
     private Float managementFee;
-    private Float performanceFee;
     private Float accountFee;
     private Float distributionFee;
     private Float serviceFee;
 
+    // Performance fee - on profit
+    private Float performanceFee;
+
+    // Total cap - on TNA
     private Float totalExpenseCap;
 
 // ACCOUNTS
@@ -77,15 +90,19 @@ public class Fund implements EntityModel {
 
 // constructor with initial fields
 
-    public Fund(Long id, String ISIN, String fundName, String clientName, Portfolio portfolio, Date lastValuationDate,
-                Float totalShares, Float startingCapital) {
+    public Fund(Long id, String ISIN, String fundName, String clientName, Portfolio portfolio, String currency,
+                Date lastValuationDate, Float totalShares, Float startingCapital) {
+// Setup part
         this.id = id;
         this.ISIN = ISIN;
         this.fundName = fundName;
         this.clientName = clientName;
         this.portfolio = portfolio;
+        this.currency = currency;
         this.lastValuationDate = lastValuationDate;
         this.totalShares = totalShares;
+
+// Booking part
         this.cashAndEquivalents = startingCapital;
         this.shareCapital = startingCapital;
     }
@@ -93,7 +110,7 @@ public class Fund implements EntityModel {
 // NAV methods
 
     public Float calculateAssets() {
-        return  financialAssets +
+        return financialAssets +
                 financialAssetsCollateral +
                 dueFromBrokers +
                 otherReceivables +
@@ -102,21 +119,22 @@ public class Fund implements EntityModel {
     }
 
     public Float calculateLiabilities() {
-        return  financialLiabilities +
+        return financialLiabilities +
                 dueToBrokers +
                 accruedExpenses;
     }
 
-    public Float accrueTnaExpenses (Date date) {
+    private Float accrueTnaExpenses(Date date) {
         Float TNA = calculateAssets() - calculateLiabilities();
         long days = DAYS.between(lastValuationDate.toLocalDate(), date.toLocalDate());
-        Float expenseRate = Math.min(totalExpenseCap,
-                        managementFee +
-                        performanceFee +
+        Float expenseCap = TNA * totalExpenseCap * days / 365;
+        Float tnaExpenses = TNA * days / 365 *
+                (managementFee +
                         accountFee +
                         distributionFee +
                         serviceFee);
-        return TNA * expenseRate * days / 365;
+        Float performanceFeeAccrual = performanceFee * retainedEarnings * days / 365;
+        return Math.min(tnaExpenses + performanceFeeAccrual, expenseCap);
     }
 
     public Float calculateNAV(Date date) {
@@ -126,7 +144,7 @@ public class Fund implements EntityModel {
         accruedExpenses += currentExpenses;
         retainedEarnings -= currentExpenses;
 // calculate NAV
-        Float nav = ( calculateAssets() - calculateLiabilities() ) / totalShares;
+        Float nav = (calculateAssets() - calculateLiabilities()) / totalShares;
 // set new last valuation date
         lastValuationDate = date;
 // return result
@@ -139,19 +157,19 @@ public class Fund implements EntityModel {
                 "ISIN " + ISIN + "\n" +
                 "client " + clientName + "\n" +
                 "last valuation date " + lastValuationDate.toLocalDate().toString() + "\n" +
-                "last NAV " + calculateNAV(lastValuationDate) + "\n" +
-                "ASSETS \n"+
+                "last NAV " + currency + " " + calculateNAV(lastValuationDate) + "\n" +
+                "ASSETS \n" +
                 "Financial assets at fair value through profit or loss " + financialAssets + "\n" +
                 "Financial assets at fair value through profit or loss pledged as collateral " + financialAssetsCollateral + "\n" +
                 "Due from brokers " + dueFromBrokers + "\n" +
                 "Other receivables " + otherReceivables + "\n" +
                 "Margin accounts " + marginAccounts + "\n" +
                 "Cash and cash equivalents " + cashAndEquivalents + "\n" +
-                "CAPITAL \n"+
+                "CAPITAL \n" +
                 "Share capital " + shareCapital + "\n" +
                 "Share premium " + sharePremium + "\n" +
                 "Retained earnings " + retainedEarnings + "\n" +
-                "LIABILITIES \n"+
+                "LIABILITIES \n" +
                 "Financial liabilities at fair value through profit or loss " + financialLiabilities + "\n" +
                 "Due to brokers " + dueToBrokers + "\n" +
                 "Accrued expenses " + accruedExpenses + "\n";

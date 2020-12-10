@@ -4,7 +4,7 @@ public enum SecurityType {
     bond,
     stock,
     fund,
-    currency,
+    currency,   // for spot contracts
     forward,
     future,
     derivative

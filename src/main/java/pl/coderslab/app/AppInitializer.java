@@ -5,6 +5,9 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
+import pl.coderslab.fixtures.FundFixture;
+import pl.coderslab.fixtures.SecurityFixture;
+import pl.coderslab.fixtures.TradeFixture;
 import pl.coderslab.fixtures.UserFixture;
 
 import javax.servlet.FilterRegistration;
@@ -36,10 +39,22 @@ public class AppInitializer implements WebApplicationInitializer {
     }
 
     private void loadFixtures(AnnotationConfigWebApplicationContext ctx){
-//@TODO uzupełnić fixtures
 
         UserFixture userFixture = ctx.getBean("userFixture", UserFixture.class);
         userFixture.loadIntoDB();
         log.trace("loading userFixture");
+
+        FundFixture fundFixture = ctx.getBean("fundFixture", FundFixture.class);
+        fundFixture.loadIntoDB();
+        log.trace("loading fundFixture");
+
+        SecurityFixture securityFixture = ctx.getBean("securityFixture", SecurityFixture.class);
+        securityFixture.loadIntoDB();
+        log.trace("loading securityFixture");
+
+        TradeFixture tradeFixture = ctx.getBean("tradeFixture", TradeFixture.class);
+        tradeFixture.loadIntoDB();
+        log.trace("loading tradeFixture");
+
     }
 }

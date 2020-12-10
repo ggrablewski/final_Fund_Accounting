@@ -28,39 +28,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/AdminFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/CorporateActionsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/ExpensesFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/FundAccountingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/PricingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/TaxFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/TradeAgentFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/filter/TradeCaptureFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainmenu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Fund_Accounting_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Fund_Accounting_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/FundFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/SecurityFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/TradeFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/SecurityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/TradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/TradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/TradeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fund_Accounting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fund_Accounting.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Fund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Fund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Security.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/SecurityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/SecurityType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -120,14 +118,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.coderslab.repository" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,6 +224,7 @@
       <workItem from="1607460874399" duration="11723000" />
       <workItem from="1607508742458" duration="9001000" />
       <workItem from="1607531975790" duration="17730000" />
+      <workItem from="1607586685226" duration="22033000" />
     </task>
     <task id="LOCAL-00001" summary="new_repository">
       <created>1607398631495</created>
@@ -258,62 +264,62 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="302" y="104" width="1014" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1528.873@72.27.1528.873" timestamp="1607556466715" />
-    <state x="644" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1607569370717">
+    <state x="644" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1607610188297">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="644" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1528.873@72.27.1528.873" timestamp="1607569370717" />
+    <state x="644" y="171" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1528.873@72.27.1528.873" timestamp="1607610188297" />
     <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl" timestamp="1607563715121">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1607563715121" />
-    <state width="1177" height="87" key="GridCell.Tab.0.bottom" timestamp="1607559765277">
+    <state width="1177" height="125" key="GridCell.Tab.0.bottom" timestamp="1607591781465">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607559765277" />
-    <state width="1177" height="87" key="GridCell.Tab.0.center" timestamp="1607559765276">
+    <state width="1177" height="125" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607591781465" />
+    <state width="1177" height="125" key="GridCell.Tab.0.center" timestamp="1607591781465">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607559765276" />
-    <state width="1177" height="87" key="GridCell.Tab.0.left" timestamp="1607559765276">
+    <state width="1177" height="125" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607591781465" />
+    <state width="1177" height="125" key="GridCell.Tab.0.left" timestamp="1607591781464">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607559765276" />
-    <state width="1177" height="87" key="GridCell.Tab.0.right" timestamp="1607559765277">
+    <state width="1177" height="125" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607591781464" />
+    <state width="1177" height="125" key="GridCell.Tab.0.right" timestamp="1607591781465">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607559765277" />
-    <state width="1177" height="87" key="GridCell.Tab.1.bottom" timestamp="1607559765279">
+    <state width="1177" height="125" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607591781465" />
+    <state width="1177" height="125" key="GridCell.Tab.1.bottom" timestamp="1607591781467">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607559765279" />
-    <state width="1177" height="87" key="GridCell.Tab.1.center" timestamp="1607559765278">
+    <state width="1177" height="125" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607591781467" />
+    <state width="1177" height="125" key="GridCell.Tab.1.center" timestamp="1607591781466">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607559765278" />
-    <state width="1177" height="87" key="GridCell.Tab.1.left" timestamp="1607559765278">
+    <state width="1177" height="125" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607591781466" />
+    <state width="1177" height="125" key="GridCell.Tab.1.left" timestamp="1607591781466">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607559765278" />
-    <state width="1177" height="87" key="GridCell.Tab.1.right" timestamp="1607559765279">
+    <state width="1177" height="125" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607591781466" />
+    <state width="1177" height="125" key="GridCell.Tab.1.right" timestamp="1607591781467">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607559765279" />
-    <state width="1177" height="87" key="GridCell.Tab.2.bottom" timestamp="1607559765281">
+    <state width="1177" height="125" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607591781467" />
+    <state width="1177" height="125" key="GridCell.Tab.2.bottom" timestamp="1607591781468">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607559765281" />
-    <state width="1177" height="87" key="GridCell.Tab.2.center" timestamp="1607559765280">
+    <state width="1177" height="125" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607591781468" />
+    <state width="1177" height="125" key="GridCell.Tab.2.center" timestamp="1607591781468">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607559765280" />
-    <state width="1177" height="87" key="GridCell.Tab.2.left" timestamp="1607559765279">
+    <state width="1177" height="125" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607591781468" />
+    <state width="1177" height="125" key="GridCell.Tab.2.left" timestamp="1607591781467">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607559765279" />
-    <state width="1177" height="87" key="GridCell.Tab.2.right" timestamp="1607559765280">
+    <state width="1177" height="125" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607591781467" />
+    <state width="1177" height="125" key="GridCell.Tab.2.right" timestamp="1607591781468">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="87" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607559765280" />
+    <state width="1177" height="125" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607591781468" />
     <state x="325" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1607398312127">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
