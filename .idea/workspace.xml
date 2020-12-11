@@ -28,43 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Fund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Fund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Trade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/TradeFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/TradeFixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/SecurityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/TradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/TradeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/FundServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/SecurityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/SecurityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/TradeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/service/TradeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Security.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/FundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/FundRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/SecurityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/TradeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/TradeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/FundServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/SecurityServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/service/TradeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Fund.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Security.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/entity/Trade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/FundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/FundRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/SecurityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/TradeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/TradeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/FundServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/SecurityServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/service/TradeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.28.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +184,7 @@
       <workItem from="1607508742458" duration="9001000" />
       <workItem from="1607531975790" duration="17730000" />
       <workItem from="1607586685226" duration="26705000" />
-      <workItem from="1607627673292" duration="8195000" />
+      <workItem from="1607627673292" duration="8504000" />
     </task>
     <task id="LOCAL-00001" summary="new_repository">
       <created>1607398631495</created>
@@ -255,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607630751613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixes_app_runs">
+      <created>1607645783744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607645783744</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixes_app_runs">
+      <created>1607645806591</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607645806591</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +257,8 @@
     <MESSAGE value="new_repository" />
     <MESSAGE value="fixtures-services-and-all-backend-logic" />
     <MESSAGE value="small_fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small_fixes" />
+    <MESSAGE value="fixes_app_runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes_app_runs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="193" y="29" width="1215" height="852" key="#Project_Structure" timestamp="1607473592591">
@@ -296,22 +277,22 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1607628677037" />
-    <state width="1177" height="75" key="GridCell.Tab.0.bottom" timestamp="1607635150095">
+    <state width="1177" height="75" key="GridCell.Tab.0.bottom" timestamp="1607645728065">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="75" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607635150095" />
-    <state width="1177" height="75" key="GridCell.Tab.0.center" timestamp="1607635150095">
+    <state width="1177" height="75" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607645728048" />
+    <state width="1177" height="75" key="GridCell.Tab.0.center" timestamp="1607645728047">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="75" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607635150095" />
-    <state width="1177" height="75" key="GridCell.Tab.0.left" timestamp="1607635150094">
+    <state width="1177" height="75" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607645728047" />
+    <state width="1177" height="75" key="GridCell.Tab.0.left" timestamp="1607645728047">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="75" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607635150094" />
-    <state width="1177" height="75" key="GridCell.Tab.0.right" timestamp="1607635150095">
+    <state width="1177" height="75" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607645728047" />
+    <state width="1177" height="75" key="GridCell.Tab.0.right" timestamp="1607645728048">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="75" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607635150095" />
+    <state width="1177" height="75" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607645728048" />
     <state width="1177" height="75" key="GridCell.Tab.1.bottom" timestamp="1607635120870">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
@@ -348,10 +329,10 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="309" y="106" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1607630043463" />
-    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1607630753242">
+    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1607645815413">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1607630753242" />
+    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1607645815413" />
     <state x="499" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1607475068930">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
