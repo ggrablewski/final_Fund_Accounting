@@ -11,7 +11,8 @@ http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
             <property name="javax.persistence.jdbc.password" value="coderslab"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="javax.persistence.schema-generation.database.action"
-                      value="drop-and-create"/>
+                      value="none"/>
+<!--                      value="drop-and-create"/>-->
             <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>

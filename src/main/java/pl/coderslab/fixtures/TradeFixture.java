@@ -1,6 +1,7 @@
 package pl.coderslab.fixtures;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import pl.coderslab.entity.Fund;
 import pl.coderslab.entity.Security;
 import pl.coderslab.entity.Trade;
@@ -14,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
+@Component
 public class TradeFixture {
 
     private TradeService tradeService;

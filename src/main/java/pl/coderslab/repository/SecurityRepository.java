@@ -12,7 +12,8 @@ import java.util.List;
 @Repository
 public interface SecurityRepository extends JpaRepository<Security, Long> {
 
-    public Security findByISIN(String ISIN);
+    @Query("SELECT s FROM Security s WHERE s.ISIN = :ISIN")
+    public Security findByISIN(@Param("ISIN")String ISIN);
 
     public Security findBySecurityName(String securityName);
 

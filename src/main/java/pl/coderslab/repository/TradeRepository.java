@@ -25,7 +25,7 @@ public interface TradeRepository extends JpaRepository<Trade, Long> {
     @Query("SELECT t From Trade t JOIN t.fund f JOIN t.security s WHERE t.fund = :fund")
     public List<Trade> findAllByFund(@Param("fund") Fund fund);
 
-    @Query("SELECT t From Trade t JOIN t.fund f JOIN t.security s WHERE t.security = :date")
+    @Query("SELECT t From Trade t JOIN t.fund f JOIN t.security s WHERE t.security = :security")
     public List<Trade> findAllBySecurity(@Param("security") Security security);
 
     public List<Trade> findAllByDateAndSecurity(@Param("date") Date date,

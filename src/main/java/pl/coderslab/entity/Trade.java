@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.sql.Date;
 
@@ -20,30 +19,30 @@ public class Trade implements EntityModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotEmpty
+    @NotNull
     private Date date;
 
 //@TODO    Portfolio feature to be added in future
 
 //    @NotNull
-//    @ManyToOne
-//    private Portfolio portfolio;
+    @ManyToOne
+    private Portfolio portfolio;
 
     @NotNull
     @ManyToOne
     private Fund fund;
 
-    @NotEmpty
+    @NotNull
     @ManyToOne
     private Security security;
 
-    @NotEmpty
+    @NotNull
     private Float amount;
 
-    @NotEmpty
+    @NotNull
     private Float purchasePrice;
 
-    @NotEmpty
+    @NotNull
     private Float transactionCost;
 
 // Trade handling methods

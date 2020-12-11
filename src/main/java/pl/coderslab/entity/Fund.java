@@ -105,9 +105,30 @@ public class Fund implements EntityModel {
 // Booking part
         this.cashAndEquivalents = startingCapital;
         this.shareCapital = startingCapital;
+
+// Zeroing Float fields
+        this.purchaseFee = 0f;
+        this.redemptionFee = 0f;
+        this.managementFee = 0f;
+        this.accountFee = 0f;
+        this.distributionFee = 0f;
+        this.serviceFee = 0f;
+        this.performanceFee = 0f;
+        this.totalExpenseCap = 0f;
+        this.financialAssets = 0f;
+        this.financialAssetsCollateral = 0f;
+        this.dueFromBrokers = 0f;
+        this.otherReceivables = 0f;
+        this.marginAccounts = 0f;
+        this.sharePremium = 0f;
+        this.retainedEarnings = 0f;
+        this.financialLiabilities = 0f;
+        this.dueToBrokers = 0f;
+        this.accruedExpenses = 0f;
+
     }
 
-// NAV methods
+    // NAV methods
 
     public Float calculateAssets() {
         return financialAssets +

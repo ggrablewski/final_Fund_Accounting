@@ -2,6 +2,7 @@ package pl.coderslab.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import pl.coderslab.entity.Security;
 import pl.coderslab.entity.SecurityType;
 import pl.coderslab.repository.SecurityRepository;
@@ -9,6 +10,7 @@ import pl.coderslab.repository.SecurityRepository;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 @Slf4j
 public class SecurityServiceImpl implements SecurityService {
 
