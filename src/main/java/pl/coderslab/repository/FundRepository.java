@@ -17,6 +17,9 @@ public interface FundRepository extends JpaRepository<Fund, Long> {
     @Query("DELETE FROM Fund f WHERE f.ISIN = :ISIN")
     public void deleteByISIN(@Param("ISIN") String ISIN);
 
+//    @Query("SELECT f FROM Fund f")
+//    public List<Fund> findAll();
+
     public List<Fund> findAllByClientName(String clientName);
 
 }

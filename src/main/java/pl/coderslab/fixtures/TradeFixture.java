@@ -48,12 +48,12 @@ public class TradeFixture {
         List<Fund> funds = fundService.findAllFunds();
         List<Security> securities = securityService.findAllSecurities();
 
-        for (int i = 0; i < 50; i++) {
-            tradeList.add(generateRandomTrade(Date.valueOf("2020-12-09"), funds, securities));
+        for (int i = 0; i < 5; i++) {
+            tradeList.add(generateRandomTrade(Date.valueOf("2020-12-10"), funds, securities));
         }
 
-        for (int i = 0; i < 100; i++) {
-            tradeList.add(generateRandomTrade(Date.valueOf("2020-12-10"), funds, securities));
+        for (int i = 0; i < 10; i++) {
+            tradeList.add(generateRandomTrade(Date.valueOf("2020-12-11"), funds, securities));
         }
 
         for (Trade trade : tradeList) {

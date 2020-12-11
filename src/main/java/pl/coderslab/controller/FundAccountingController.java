@@ -52,10 +52,10 @@ public class FundAccountingController {
     @PostMapping("/login")
     public String login(@Valid User user, BindingResult result, Model model) {
 
-        if (result.hasErrors()) {
-            log.info("wrong comitId at login");
-            return "login";
-        }
+//        if (result.hasErrors()) {
+//            log.info("wrong comitId at login");
+//            return "login";
+//        }
 
         User readUser = userService.findByComitId(user.getComitId());
         boolean passwordMatches = userService.passwordMatches(readUser, user.getPassword());
@@ -69,5 +69,12 @@ public class FundAccountingController {
             return "login";
         }
     }
+
+    @GetMapping("/menu")
+    public String menu() {
+        log.info("main menu");
+        return "menu";
+    }
+
 
 }

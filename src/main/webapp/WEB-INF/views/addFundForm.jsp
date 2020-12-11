@@ -24,13 +24,13 @@
 
 <form:form modelAttribute="fund" method="post">
     <form:hidden path="id"/>
-    <p>ISIN <form:input path="ISIN" placeholder="9 digits"/></p>
+    <p>ISIN <form:input path="ISIN" placeholder="2 letters 10 digits"/></p>
     <p>Fund name <form:input path="fundName"/></p>
     <p>Client name <form:input path="clientName"/></p>
     <p>Fund currency <form:input path="currency" placeholder="3 letters"/></p>
     <p>Last valuation date <form:input path="lastValuationDate" value="${lastDate}"/></p>
     <p>Total number of shares <form:input path="totalShares"/></p>
-    <p>Initial share capital <form:input path="startingCapital"/></p>
+    <p>Initial share capital <form:input path="shareCapital"/></p>
     <button type="submit">Save</button>
 </form:form>
 

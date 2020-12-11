@@ -19,8 +19,7 @@
     <li><h5>Funds</h5></li>
     <ul>
         <li>
-<%--            Transfer agent--%>
-            <a href="/ta/fund/add">
+            <a href="/fund/add">
                 <span>Add fund</span>
             </a>
         </li>
@@ -29,19 +28,13 @@
                 <span>Fund list</span>
             </a>
         </li>
-        <li>
-<%--            Fund accounting--%>
-            <a href="/fa/fund/details">
-                <span>Fund details</span>
-            </a>
-        </li>
 
     </ul>
 
     <li><h5>Securities</h5></li>
     <ul>
         <li>
-            <a href="/tcm/security/add">
+            <a href="/security/add">
                 <span>Add security</span>
             </a>
         </li>
@@ -50,34 +43,19 @@
                 <span>Security list</span>
             </a>
         </li>
-        <li>
-            <a href="/security/details">
-                <span>Security details</span>
-            </a>
-        </li>
 
     </ul>
 
     <li><h5>Trades</h5></li>
     <ul>
         <li>
-            <a href="/tcm/trade/add">
+            <a href="/trade/add">
                 <span>Add trade</span>
             </a>
         </li>
         <li>
-            <a href="/tcm/trade/list">
-                <span>Trade list - TCM access</span>
-            </a>
-        </li>
-        <li>
-            <a href="/fa/trade/list">
-                <span>Trade list - FA access</span>
-            </a>
-        </li>
-        <li>
-            <a href="/tcm/trade/details">
-                <span>Trade details</span>
+            <a href="/trade/list">
+                <span>Trade list</span>
             </a>
         </li>
 
