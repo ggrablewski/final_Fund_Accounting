@@ -28,30 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc53fd65-2e59-4d22-b524-7c50b914a8ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundAccountingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FundController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/TradeFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/fixtures/TradeFixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FundRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addFundForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addFundForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FundController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/addFundForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/addFundForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Fund_Accounting-1.0-SNAPSHOT/WEB-INF/views/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundAccountingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FundController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/fixtures/TradeFixture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fundList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +196,7 @@
       <workItem from="1607531975790" duration="17730000" />
       <workItem from="1607586685226" duration="26705000" />
       <workItem from="1607627673292" duration="9114000" />
-      <workItem from="1607681693716" duration="9326000" />
+      <workItem from="1607681693716" duration="9707000" />
     </task>
     <task id="LOCAL-00001" summary="new_repository">
       <created>1607398631495</created>
@@ -275,7 +254,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607645843274</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fund_add_details_list-problem-z-lista">
+      <created>1607694912435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607694912435</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fund_add_details_list-problem-z-lista">
+      <created>1607694938318</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607694938318</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fund_add_details_list-problem-z-lista">
+      <created>1607694962817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607694962817</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +298,8 @@
     <MESSAGE value="fixtures-services-and-all-backend-logic" />
     <MESSAGE value="small_fixes" />
     <MESSAGE value="fixes_app_runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes_app_runs" />
+    <MESSAGE value="fund_add_details_list-problem-z-lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="fund_add_details_list-problem-z-lista" />
   </component>
   <component name="WindowStateProjectService">
     <state x="193" y="29" width="1215" height="852" key="#Project_Structure" timestamp="1607473592591">
@@ -317,62 +318,62 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="495" y="132" width="735" height="581" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1607689619494" />
-    <state width="1177" height="528" key="GridCell.Tab.0.bottom" timestamp="1607694087192">
+    <state width="1177" height="177" key="GridCell.Tab.0.bottom" timestamp="1607694840372">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607694087192" />
-    <state width="1177" height="528" key="GridCell.Tab.0.center" timestamp="1607694087191">
+    <state width="1177" height="177" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607694840372" />
+    <state width="1177" height="177" key="GridCell.Tab.0.center" timestamp="1607694840372">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607694087191" />
-    <state width="1177" height="528" key="GridCell.Tab.0.left" timestamp="1607694087190">
+    <state width="1177" height="177" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1607694840372" />
+    <state width="1177" height="177" key="GridCell.Tab.0.left" timestamp="1607694840371">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607694087190" />
-    <state width="1177" height="528" key="GridCell.Tab.0.right" timestamp="1607694087191">
+    <state width="1177" height="177" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1607694840371" />
+    <state width="1177" height="177" key="GridCell.Tab.0.right" timestamp="1607694840372">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607694087191" />
-    <state width="1177" height="528" key="GridCell.Tab.1.bottom" timestamp="1607693968998">
+    <state width="1177" height="177" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1607694840372" />
+    <state width="1177" height="177" key="GridCell.Tab.1.bottom" timestamp="1607694840376">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607693968998" />
-    <state width="1177" height="528" key="GridCell.Tab.1.center" timestamp="1607693968997">
+    <state width="1177" height="177" key="GridCell.Tab.1.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607694840376" />
+    <state width="1177" height="177" key="GridCell.Tab.1.center" timestamp="1607694840375">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607693968997" />
-    <state width="1177" height="528" key="GridCell.Tab.1.left" timestamp="1607693968997">
+    <state width="1177" height="177" key="GridCell.Tab.1.center/72.27.1528.873@72.27.1528.873" timestamp="1607694840375" />
+    <state width="1177" height="177" key="GridCell.Tab.1.left" timestamp="1607694840374">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607693968997" />
-    <state width="1177" height="528" key="GridCell.Tab.1.right" timestamp="1607693968997">
+    <state width="1177" height="177" key="GridCell.Tab.1.left/72.27.1528.873@72.27.1528.873" timestamp="1607694840374" />
+    <state width="1177" height="177" key="GridCell.Tab.1.right" timestamp="1607694840375">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607693968997" />
-    <state width="1177" height="528" key="GridCell.Tab.2.bottom" timestamp="1607693968996">
+    <state width="1177" height="177" key="GridCell.Tab.1.right/72.27.1528.873@72.27.1528.873" timestamp="1607694840375" />
+    <state width="1177" height="177" key="GridCell.Tab.2.bottom" timestamp="1607694840374">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607693968996" />
-    <state width="1177" height="528" key="GridCell.Tab.2.center" timestamp="1607693968996">
+    <state width="1177" height="177" key="GridCell.Tab.2.bottom/72.27.1528.873@72.27.1528.873" timestamp="1607694840374" />
+    <state width="1177" height="177" key="GridCell.Tab.2.center" timestamp="1607694840373">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607693968996" />
-    <state width="1177" height="528" key="GridCell.Tab.2.left" timestamp="1607693968995">
+    <state width="1177" height="177" key="GridCell.Tab.2.center/72.27.1528.873@72.27.1528.873" timestamp="1607694840373" />
+    <state width="1177" height="177" key="GridCell.Tab.2.left" timestamp="1607694840373">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607693968995" />
-    <state width="1177" height="528" key="GridCell.Tab.2.right" timestamp="1607693968996">
+    <state width="1177" height="177" key="GridCell.Tab.2.left/72.27.1528.873@72.27.1528.873" timestamp="1607694840373" />
+    <state width="1177" height="177" key="GridCell.Tab.2.right" timestamp="1607694840374">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1177" height="528" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607693968996" />
+    <state width="1177" height="177" key="GridCell.Tab.2.right/72.27.1528.873@72.27.1528.873" timestamp="1607694840374" />
     <state x="309" y="106" width="1022" height="737" key="SettingsEditor" timestamp="1607630043463">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="309" y="106" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1607630043463" />
-    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1607645845083">
+    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1607694916387">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1607645845083" />
+    <state x="431" y="185" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1607694916387" />
     <state x="499" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1607692642699">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
